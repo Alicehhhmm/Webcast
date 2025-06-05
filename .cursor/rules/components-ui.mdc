@@ -1,0 +1,23 @@
+---
+description: Basic Ui Component Specifications
+globs:
+alwaysApply: false
+---
+
+# 通用ui组件规范
+
+- 尽量使用 TypeScript 和 React 最新稳定版本开发
+- 必须遵循 TypeScript 和 React 语法规范
+- 兼容 React 16 ~ 19 版本
+
+## 基本原则
+
+- 使用 TypeScript 和 React 书写
+- 使用函数式组件和 hooks，避免类组件
+- 使用提前返回（early returns）提高代码可读性
+- 避免引入新依赖，严控组件体积
+- 支持服务端渲染
+- 保持向下兼容，避免 breaking change
+- 组件名使用大驼峰（PascalCase）
+- 属性名使用小驼峰（camelCase）
+- 合理使用 React.memo、useMemo 和 useCallback 优化性能

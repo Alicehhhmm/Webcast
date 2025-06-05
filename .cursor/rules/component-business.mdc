@@ -1,0 +1,14 @@
+---
+description: Business Component Specification
+globs:
+alwaysApply: false
+---
+
+# 业务组件规范
+
+- 必须遵循"通用ui组件规范"
+
+
+## 基本原则
+
+- 多次复用到基础UI组件时, 业务组件名称必须使用前缀："With" + "ComponentName", 例如："WithIcon"、"WithFooter"

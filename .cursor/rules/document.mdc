@@ -1,0 +1,7 @@
+---
+description: Document Specifications
+globs: ['*.md','apps/docs/*.md']
+alwaysApply: false
+---
+
+# 文档规范
