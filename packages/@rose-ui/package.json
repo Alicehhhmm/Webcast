@@ -1,0 +1,36 @@
+{
+    "name": "@rose/ui",
+    "version": "0.0.0",
+    "description": "This is an exclusive UI component library provided for the Webcast project.",
+    "author": "norush",
+    "license": "MIT",
+    "main": "./index.tsx",
+    "types": "./index.tsx",
+    "keywords": [
+        "ui",
+        "react ui",
+        "components"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc --emitDeclarationOnly && vite build",
+        "test": "vitest"
+    },
+    "packageManager": "pnpm@10.6.3",
+    "dependencies": {
+        "@radix-ui/react-slot": "^1.2.3",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "tailwind-merge": "^3.3.0",
+        "tailwindcss": "^4.1.8"
+    },
+    "devDependencies": {
+        "@rose/tsconfig": "workspace:^",
+        "@testing-library/dom": "^10.4.0",
+        "@testing-library/jest-dom": "^6.6.3",
+        "@testing-library/react": "^16.3.0",
+        "jsdom": "^26.1.0",
+        "vite": "^6.3.5",
+        "vitest": "^3.2.2"
+    }
+}
