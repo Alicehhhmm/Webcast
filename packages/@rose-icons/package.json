@@ -1,0 +1,25 @@
+{
+    "name": "@rose/icons",
+    "version": "0.0.1",
+    "description": "A library that provides icons for Rose UI",
+    "main": "index.ts",
+    "types": "index.ts",
+    "license": "MIT",
+    "exports": {
+        ".": {
+            "import": "./index.ts"
+        }
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "@rose/tsconfig": "workspace:^",
+        "@types/react": "^19.1.2",
+        "react": "^19.1.0",
+        "vitest": "^3.2.2"
+    },
+    "peerDependencies": {
+        "react": "^17.0.0 || ^18.0.0 || ^19.0.0"
+    }
+}
